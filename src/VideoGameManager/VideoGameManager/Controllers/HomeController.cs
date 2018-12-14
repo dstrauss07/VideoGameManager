@@ -5,11 +5,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using VideoGameManager.Models;
+using StraussDa.VideoGameLibrary;
 
 namespace VideoGameManager.Controllers
 {
     public class HomeController : Controller
     {
+        private static GameRepository _gameRepo = new GameRepository();
         public IActionResult Index()
         {
             return View();
@@ -17,6 +19,16 @@ namespace VideoGameManager.Controllers
 
         public IActionResult Privacy()
         {
+            
+        var game1 = new Game
+            {
+                Year = 2012,
+                Title = "Mount and Blade",
+                Platform = "PC",
+                Genre = "Strategy"
+            };
+
+            _gameRepo.Add(game1);
             return View();
         }
 

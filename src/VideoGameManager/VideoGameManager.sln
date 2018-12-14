@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGameManager", "VideoGameManager\VideoGameManager.csproj", "{DA36A431-5F8F-4ADB-BA0C-9EBA6B9D90CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoGameLibrary", "VideoGameLibrary\VideoGameLibrary.csproj", "{3C879DC7-A5FE-4E2F-A577-BB2CFA5A09FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DA36A431-5F8F-4ADB-BA0C-9EBA6B9D90CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA36A431-5F8F-4ADB-BA0C-9EBA6B9D90CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA36A431-5F8F-4ADB-BA0C-9EBA6B9D90CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C879DC7-A5FE-4E2F-A577-BB2CFA5A09FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C879DC7-A5FE-4E2F-A577-BB2CFA5A09FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C879DC7-A5FE-4E2F-A577-BB2CFA5A09FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C879DC7-A5FE-4E2F-A577-BB2CFA5A09FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
